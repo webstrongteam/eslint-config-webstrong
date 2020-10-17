@@ -20,6 +20,7 @@ module.exports = {
   extends: ['eslint:recommended', 'plugin:react/recommended'],
 
   rules: {
+    'react/prop-types': 'off',
     'react/display-name': ['off', {ignoreTranspilerName: false}],
     'react/jsx-closing-bracket-location': ['error', 'line-aligned'],
     'react/jsx-closing-tag-location': 'error',
@@ -45,8 +46,8 @@ module.exports = {
     'react/no-danger': 'warn',
     'react/no-deprecated': ['error'],
     'react/no-did-mount-set-state': 'off',
-    'react/no-did-update-set-state': 'error',
-    'react/no-will-update-set-state': 'error',
+    'react/no-did-update-set-state': 'off',
+    'react/no-will-update-set-state': 'off',
     'react/no-direct-mutation-state': 'off',
     'react/no-is-mounted': 'error',
     'react/no-string-refs': 'error',
@@ -98,7 +99,7 @@ module.exports = {
       multiline: 'consistent',
       singleline: 'consistent',
     }],
-    'react/jsx-no-useless-fragment': 'error',
+    'react/jsx-no-useless-fragment': 'off',
   },
 
   settings: {

@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-webstrong",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "WebStrong ESLint config for React and React Native",
   "main": "index.js",
   "scripts": {
@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/webstrongteam/eslint-config-webstrong"
+    "url": "git+https://github.com/webstrongteam/eslint-config-webstrong.git"
   },
   "keywords": [
     "eslint",
@@ -40,5 +40,6 @@
     "eslint-plugin-react-hooks": "^4.1.2",
     "eslint-plugin-react-native": "^3.10.0",
     "react": ">= 0.13.0"
-  }
+  },
+  "dependencies": {}
 }
