@@ -20,12 +20,13 @@ module.exports = {
   extends: ['eslint:recommended', 'plugin:react/recommended'],
 
   rules: {
+    "no-return-assign": ["warn", "always"],
     'react/prop-types': 'off',
     'react/display-name': ['off', {ignoreTranspilerName: false}],
     'react/jsx-closing-bracket-location': ['error', 'line-aligned'],
     'react/jsx-closing-tag-location': 'error',
     'react/jsx-curly-spacing': ['error', 'never', {allowMultiline: true}],
-    'react/jsx-indent-props': ['error', 2],
+    'react/jsx-indent-props': "off",
     'react/jsx-no-duplicate-props': ['error', {ignoreCase: true}],
     'react/jsx-no-literals': ['off', {noStrings: true}],
     'react/jsx-no-undef': 'error',
@@ -63,7 +64,6 @@ module.exports = {
       arrow: 'parens-new-line',
       condition: 'parens-new-line',
       logical: 'parens-new-line',
-      prop: 'parens-new-line',
     }],
     'react/jsx-first-prop-new-line': ['error', 'multiline-multiprop'],
     'react/jsx-equals-spacing': ['error', 'never'],
@@ -84,7 +84,7 @@ module.exports = {
     }],
     'react/jsx-curly-brace-presence': ['error', {props: 'never', children: 'never'}],
     'react/jsx-one-expression-per-line': ['error', {allow: 'single-child'}],
-    'react/destructuring-assignment': ['error', 'always'],
+    'react/destructuring-assignment': ['warn', 'always'],
     'react/button-has-type': ['error', {
       button: true,
       submit: true,
@@ -95,10 +95,7 @@ module.exports = {
     'react/jsx-props-no-multi-spaces': 'error',
     'react/no-unsafe': 'off',
     'react/jsx-fragments': ['error', 'syntax'],
-    'react/jsx-curly-newline': ['error', {
-      multiline: 'consistent',
-      singleline: 'consistent',
-    }],
+    "react/jsx-curly-newline": "off",
     'react/jsx-no-useless-fragment': 'off',
   },
 
