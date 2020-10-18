@@ -83,7 +83,7 @@ module.exports = {
       message: '',
     }],
     'react/jsx-curly-brace-presence': ['error', {props: 'never', children: 'never'}],
-    'react/jsx-one-expression-per-line': ['error', {allow: 'single-child'}],
+    'react/jsx-one-expression-per-line': ['warn', {allow: 'single-child'}],
     'react/destructuring-assignment': ['warn', 'always'],
     'react/button-has-type': ['error', {
       button: true,
