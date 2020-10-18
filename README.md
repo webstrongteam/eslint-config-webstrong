@@ -8,6 +8,12 @@ React, React Hooks, React Native and TypeScript specific linting rules for ESLin
 
 Our default export contains all of our ESLint rules, including ECMAScript 6+ React, React Hooks, React Native and TypeScript support.
 
+Install eslint-config-webstrong
+
+  ```sh
+  npm install --dev eslint-config-webstrong
+  ```
+
 Install requires pacakges:
 
   ```sh
@@ -46,4 +52,4 @@ Rules for TypeScript
 
 ### WebStrong &copy;
 > **Web:** https://webstrong.pl <br />
-> **GitHub:** https://github.com/webstrongteam <br />
+> **GitHub:** https://github.com/webstrongteam
