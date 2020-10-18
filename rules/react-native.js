@@ -5,12 +5,6 @@ module.exports = {
 
   plugins: ['react-native'],
 
-  parserOptions: {
-    ecmaFeatures: {
-      jsx: true,
-    },
-  },
-
   rules: {
     "react-native/no-unused-styles": 'error',
     "react-native/split-platform-components": 'error',

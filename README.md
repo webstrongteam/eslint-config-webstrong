@@ -2,11 +2,11 @@
 
 [![npm version](https://badge.fury.io/js/eslint-config-webstrong.svg)](https://badge.fury.io/js/eslint-config-webstrong.svg)
 
-React and React Native specific linting rules for ESLint
+React, React Hooks, React Native and TypeScript specific linting rules for ESLint.
 
 ## Configuration
 
-Our default export contains all of our ESLint rules, including ECMAScript 6+ React and React Native. It requires `eslint`, `eslint-plugin-import`, `eslint-plugin-react`, `eslint-plugin-react-hooks`, `eslint-plugin-jsx-a11y` and `eslint-plugin-react-native`.
+Our default export contains all of our ESLint rules, including ECMAScript 6+ React, React Hooks, React Native and TypeScript support.
 
 Install requires pacakges:
 
@@ -16,22 +16,34 @@ Install requires pacakges:
 
 ## Usage
 
-We export three ESLint configurations for your usage.
+We export four ESLint configurations for your usage dependent on your technology.
 
 ### eslint-config-webstrong
 
-Basic rules for react
+Basic rules for React
 
 `"extends": ["webstrong"]`
 
 ### eslint-config-webstrong/hooks
 
-Rules for react hooks
+Rules for React Hooks
 
 `"extends": ["webstrong", "webstrong/hooks]`
 
 ### eslint-config-webstrong/native
 
-Rules for react native
+Rules for React Native
 
 `"extends": ["webstrong", "webstrong/native]`
+
+### eslint-config-webstrong/typescript
+
+Rules for TypeScript
+
+`"extends": ["webstrong/typescript]`
+
+## Authors
+
+### WebStrong &copy;
+> **Web:** https://webstrong.pl <br />
+> **GitHub:** https://github.com/webstrongteam <br />

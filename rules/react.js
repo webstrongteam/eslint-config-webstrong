@@ -7,7 +7,7 @@ module.exports = {
     node: true
   },
 
-  plugins: ['react'],
+  plugins: ['react', 'prettier'],
 
   parserOptions: {
     ecmaFeatures: {
@@ -17,10 +17,30 @@ module.exports = {
     sourceType: 'module',
   },
 
-  extends: ['eslint:recommended', 'plugin:react/recommended'],
+  extends: [
+    'eslint:recommended',
+    'plugin:react/recommended',
+    'plugin:jsx-a11y/recommended',
+    'prettier',
+    'prettier/react'
+  ],
 
   rules: {
-    "no-return-assign": ["warn", "always"],
+    'no-shadow': 'off',
+    'no-continue': 'off',
+    'no-console': 'warn',
+    'consistent-return': 'off',
+    'default-case': 'off',
+    'spaced-comment': 'off',
+    'no-prototype-builtins': 'off',
+    'lines-between-class-members': 'off',
+    'no-await-in-loop': 'off',
+    'no-return-assign': ['warn', 'always'],
+    'prefer-destructuring': ['error', { object: true, array: false }],
+    'no-param-reassign': ['error', { props: false }],
+    // ESLint bug https://github.com/prettier/prettier-eslint/issues/182
+    'implicit-arrow-linebreak': 'off',
+
     'react/prop-types': 'off',
     'react/display-name': ['off', {ignoreTranspilerName: false}],
     'react/jsx-closing-bracket-location': ['error', 'line-aligned'],
@@ -83,8 +103,10 @@ module.exports = {
       message: '',
     }],
     'react/jsx-curly-brace-presence': ['error', {props: 'never', children: 'never'}],
-    'react/jsx-one-expression-per-line': ['warn', {allow: 'single-child'}],
-    'react/destructuring-assignment': ['warn', 'always'],
+    'react/jsx-one-expression-per-line': 'off',
+    'react/jsx-props-no-spreading': 'off',
+    'react/require-default-props': 'off',
+    'react/no-array-index-key': 'off',
     'react/button-has-type': ['error', {
       button: true,
       submit: true,
