@@ -17,7 +17,7 @@ Install eslint-config-webstrong
 Install requires pacakges:
 
   ```sh
-  npx install-peerdeps --save-dev eslint-config-webstrong
+  npx install-peerdeps --dev eslint-config-webstrong
   ```
 
 ## Usage

@@ -6,7 +6,7 @@ module.exports = {
     es6: true,
   },
 
-  plugins: ['prettier', 'import'],
+  plugins: ['prettier'],
 
   parserOptions: {
     ecmaFeatures: {
@@ -18,8 +18,6 @@ module.exports = {
 
   extends: [
     'eslint:recommended',
-    'plugin:import/errors',
-    'plugin:import/warnings',
     'prettier',
   ],
 
@@ -38,8 +36,5 @@ module.exports = {
     'no-param-reassign': ['error', { props: false }],
     // ESLint bug https://github.com/prettier/prettier-eslint/issues/182
     'implicit-arrow-linebreak': 'off',
-
-    'import/no-cycle': 'off',
-    'import/prefer-default-export': 'off',
   },
 }
