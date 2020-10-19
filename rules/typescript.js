@@ -5,6 +5,7 @@ module.exports = {
     'plugin:@typescript-eslint/recommended',
     'plugin:@typescript-eslint/recommended-requiring-type-checking',
     'prettier/@typescript-eslint',
+    'plugin:import/typescript',
   ],
 
   rules: {
@@ -21,9 +22,9 @@ module.exports = {
         },
       },
     ],
-    '@typescript-eslint/ban-types': 'off', // TODO enable
-    '@typescript-eslint/restrict-template-expressions': 'off', // TODO enable
-    '@typescript-eslint/unbound-method': 'off', // TODO enable
+    '@typescript-eslint/ban-types': 'off',
+    '@typescript-eslint/restrict-template-expressions': 'off',
+    '@typescript-eslint/unbound-method': 'off',
     '@typescript-eslint/no-use-before-define': 'off',
     '@typescript-eslint/explicit-function-return-type': 'off',
     '@typescript-eslint/no-unsafe-return': 'off',

@@ -1,46 +1,13 @@
 module.exports = {
-  parser: "babel-eslint",
-
-  env: {
-    browser: true,
-    es6: true,
-    node: true
-  },
-
-  plugins: ['react', 'prettier'],
-
-  parserOptions: {
-    ecmaFeatures: {
-      jsx: true,
-    },
-    ecmaVersion: 2020,
-    sourceType: 'module',
-  },
+  plugins: ['react'],
 
   extends: [
-    'eslint:recommended',
     'plugin:react/recommended',
     'plugin:jsx-a11y/recommended',
-    'prettier',
-    'prettier/react'
+    'prettier/react',
   ],
 
   rules: {
-    'no-shadow': 'off',
-    'no-continue': 'off',
-    'no-console': 'warn',
-    'consistent-return': 'off',
-    'default-case': 'off',
-    'spaced-comment': 'off',
-    'no-prototype-builtins': 'off',
-    'lines-between-class-members': 'off',
-    'no-await-in-loop': 'off',
-    'no-return-assign': ['warn', 'always'],
-    'prefer-destructuring': ['error', { object: true, array: false }],
-    'no-param-reassign': ['error', { props: false }],
-    // ESLint bug https://github.com/prettier/prettier-eslint/issues/182
-    'implicit-arrow-linebreak': 'off',
-
     'react/prop-types': 'off',
     'react/display-name': ['off', {ignoreTranspilerName: false}],
     'react/jsx-closing-bracket-location': ['error', 'line-aligned'],

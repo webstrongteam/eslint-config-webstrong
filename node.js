@@ -1,8 +1,7 @@
 module.exports = {
   extends: [
     './rules/javascript.js',
-    './rules/react.js',
-    './rules/react-hooks.js',
+    './rules/node.js',
   ].map(require.resolve),
   rules: {}
 };
