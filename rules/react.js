@@ -1,5 +1,11 @@
 module.exports = {
-  plugins: ['react'],
+  plugins: ['react', 'jsx-a11y'],
+
+  parserOptions: {
+    ecmaFeatures: {
+      jsx: true,
+    },
+  },
 
   extends: [
     'plugin:react/recommended',
@@ -8,6 +14,7 @@ module.exports = {
   ],
 
   rules: {
+    // react
     'react/prop-types': 'off',
     'react/display-name': ['off', {ignoreTranspilerName: false}],
     'react/jsx-closing-bracket-location': ['error', 'line-aligned'],
@@ -86,6 +93,15 @@ module.exports = {
     'react/jsx-fragments': ['error', 'syntax'],
     "react/jsx-curly-newline": "off",
     'react/jsx-no-useless-fragment': 'off',
+
+    // jsx-a11y
+    'jsx-a11y/click-events-have-key-events': 'off',
+    'jsx-a11y/mouse-events-have-key-events': 'off',
+    'jsx-a11y/no-static-element-interactions': 'off',
+    'jsx-a11y/tabindex-no-positive': 'off',
+    'jsx-a11y/no-autofocus': 'off',
+    'jsx-a11y/no-noninteractive-element-interactions': 'off',
+    'jsx-a11y/label-has-associated-control': 'off',
   },
 
   settings: {

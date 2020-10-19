@@ -34,25 +34,31 @@ Basic rules for React
 
 Rules for React Hooks
 
-`"extends": ["webstrong/hooks]`
+`"extends": ["webstrong/hooks"]`
 
 ### eslint-config-webstrong/native
 
 Rules for React Native
 
-`"extends": ["webstrong/native]`
+`"extends": ["webstrong/native"]`
 
 ### eslint-config-webstrong/typescript
 
 Rules for TypeScript
 
-`"extends": ["webstrong/typescript]`
+`"extends": ["webstrong/typescript"]`
 
 ### eslint-config-webstrong/node
 
 Rules for NodeJS
 
-`"extends": ["webstrong/node]`
+`"extends": ["webstrong/node"]`
+
+## Connecting rules
+
+Also you can connect few rules e.g.
+
+`"extends": ["webstrong", "webstrong/typescript"]`
 
 ## Authors
 

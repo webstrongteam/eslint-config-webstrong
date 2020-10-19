@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-webstrong",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "description": "WebStrong ESLint config for JS, React (+hooks), React Native, TypeScript and NodeJS",
   "main": "index.js",
   "scripts": {},
@@ -41,6 +41,7 @@
     "eslint-config-airbnb-typescript": "^12.0.0",
     "eslint-config-node": "^4.1.0",
     "eslint-config-prettier": "^6.13.0",
+    "eslint-plugin-import": "^2.22.1",
     "eslint-plugin-jsx-a11y": "^6.3.1",
     "eslint-plugin-prettier": "^3.1.4",
     "eslint-plugin-react": "^7.21.4",
@@ -53,6 +54,7 @@
     "@typescript-eslint/parser": "^4.4.1",
     "babel-eslint": "^10.1.0",
     "eslint": "^6.6.0",
+    "eslint-plugin-import": "^2.22.1",
     "eslint-plugin-jsx-a11y": "^6.3.1",
     "eslint-plugin-react": "^7.21.4",
     "eslint-plugin-react-hooks": "^4.1.2",

@@ -9,9 +9,6 @@ module.exports = {
   plugins: ['prettier'],
 
   parserOptions: {
-    ecmaFeatures: {
-      jsx: true,
-    },
     ecmaVersion: 2020,
     sourceType: 'module',
   },
@@ -36,5 +33,11 @@ module.exports = {
     'no-param-reassign': ['error', { props: false }],
     // ESLint bug https://github.com/prettier/prettier-eslint/issues/182
     'implicit-arrow-linebreak': 'off',
+    "no-invalid-this": "off",
+
+    "import/no-cycle": "off",
+    "import/prefer-default-export": "off",
+    "import/no-namespace": "off",
+    "import/no-unresolved": 'off',
   },
 }
