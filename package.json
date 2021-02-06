@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-webstrong",
-  "version": "1.1.3",
+  "version": "1.1.5",
   "description": "WebStrong ESLint config for JS, React (+hooks), React Native, TypeScript and NodeJS",
   "main": "index.js",
   "scripts": {},

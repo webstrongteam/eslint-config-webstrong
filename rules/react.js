@@ -62,7 +62,7 @@ module.exports = {
     'react/jsx-first-prop-new-line': ['error', 'multiline-multiprop'],
     'react/jsx-equals-spacing': ['error', 'never'],
     'react/jsx-no-target-blank': ['error', {enforceDynamicLinks: 'always'}],
-    'react/jsx-filename-extension': ['error', {extensions: ['.jsx']}],
+    'react/jsx-filename-extension': ['error', {extensions: ['.jsx', '.tsx']}],
     'react/jsx-no-comment-textnodes': 'error',
     'react/no-render-return-value': 'error',
     'react/style-prop-object': 'error',
