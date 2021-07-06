@@ -1,6 +1,4 @@
 module.exports = {
-  parser: "babel-eslint",
-
   env: {
     browser: true,
     es6: true,
@@ -34,9 +32,9 @@ module.exports = {
     // ESLint bug https://github.com/prettier/prettier-eslint/issues/182
     'implicit-arrow-linebreak': 'off',
     'no-invalid-this': "off",
-    'no-import-assign': 0,
-    'no-redeclare': 0,
-    'global-require': 0,
+    'no-import-assign': "off",
+    'no-redeclare': "off",
+    'global-require': "off",
 
     'import/no-cycle': "off",
     'import/prefer-default-export': "off",

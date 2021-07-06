@@ -4,7 +4,6 @@ module.exports = {
     'plugin:@typescript-eslint/eslint-recommended',
     'plugin:@typescript-eslint/recommended',
     'plugin:@typescript-eslint/recommended-requiring-type-checking',
-    'prettier/@typescript-eslint',
   ],
 
   rules: {
@@ -60,7 +59,6 @@ module.exports = {
         allowSingleExtends: true,
       },
     ],
-    '@typescript-eslint/ban-ts-comment': 0,
-    '@typescript-eslint/no-redeclare': 0,
+    '@typescript-eslint/ban-ts-comment': "off",
   },
 };

@@ -10,7 +10,6 @@ module.exports = {
   extends: [
     'plugin:react/recommended',
     'plugin:jsx-a11y/recommended',
-    'prettier/react',
   ],
 
   rules: {
@@ -20,7 +19,7 @@ module.exports = {
     'react/jsx-closing-bracket-location': ['error', 'line-aligned'],
     'react/jsx-closing-tag-location': 'error',
     'react/jsx-curly-spacing': ['error', 'never', {allowMultiline: true}],
-    'react/jsx-indent-props': 0,
+    'react/jsx-indent-props': "off",
     'react/jsx-no-duplicate-props': ['error', {ignoreCase: true}],
     'react/jsx-no-literals': ['off', {noStrings: true}],
     'react/jsx-no-undef': 'error',
@@ -51,7 +50,7 @@ module.exports = {
     'react/react-in-jsx-scope': 'error',
     'react/require-render-return': 'error',
     'react/self-closing-comp': 'error',
-    'react/jsx-wrap-multilines': 0,
+    'react/jsx-wrap-multilines': "off",
     'react/jsx-first-prop-new-line': ['error', 'multiline-multiprop'],
     'react/jsx-equals-spacing': ['error', 'never'],
     'react/jsx-no-target-blank': ['error', {enforceDynamicLinks: 'always'}],
@@ -70,10 +69,10 @@ module.exports = {
       message: '',
     }],
     'react/jsx-curly-brace-presence': ['error', {props: 'never', children: 'never'}],
-    'react/jsx-one-expression-per-line': 0,
-    'react/jsx-props-no-spreading': 0,
-    'react/require-default-props': 0,
-    'react/no-array-index-key': 0,
+    'react/jsx-one-expression-per-line': "off",
+    'react/jsx-props-no-spreading': "off",
+    'react/require-default-props': "off",
+    'react/no-array-index-key': "off",
     'react/button-has-type': ['error', {
       button: true,
       submit: true,
@@ -86,9 +85,8 @@ module.exports = {
     'react/jsx-fragments': ['error', 'syntax'],
     'react/jsx-curly-newline': "off",
     'react/jsx-no-useless-fragment': 'off',
-    'react/jsx-indent': 0,
-    'react/jsx-tag-spacing': 0,
-    'react/no-unused-prop-types': 0,
+    'react/jsx-indent': "off",
+    'react/jsx-tag-spacing': "off",
 
     // jsx-a11y
     'jsx-a11y/click-events-have-key-events': 'off',

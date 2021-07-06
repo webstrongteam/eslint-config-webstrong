@@ -14,7 +14,7 @@ Install eslint-config-webstrong
   npm install --save-dev eslint-config-webstrong
   ```
 
-Install requires pacakges:
+Install requires packages:
 
   ```sh
   npx install-peerdeps --dev eslint-config-webstrong
@@ -56,9 +56,9 @@ Rules for NodeJS
 
 ## Connecting rules
 
-Also you can connect few rules e.g.
+Also, you can connect few rules e.g.
 
-`"extends": ["webstrong", "webstrong/typescript"]`
+`"extends": ["webstrong/typescript", "webstrong"]`
 
 ## Authors
 
