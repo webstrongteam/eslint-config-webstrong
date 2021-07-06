@@ -41,7 +41,7 @@ module.exports = {
         ignoreRestSiblings: true,
       },
     ],
-    '@typescript-eslint/no-floating-promises': 'warn',
+    '@typescript-eslint/no-floating-promises': 0,
     '@typescript-eslint/no-misused-promises': [
       'error',
       {
@@ -60,5 +60,7 @@ module.exports = {
         allowSingleExtends: true,
       },
     ],
+    '@typescript-eslint/ban-ts-comment': 0,
+    '@typescript-eslint/no-redeclare': 0,
   },
 };

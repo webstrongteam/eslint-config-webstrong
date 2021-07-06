@@ -33,11 +33,14 @@ module.exports = {
     'no-param-reassign': ['error', { props: false }],
     // ESLint bug https://github.com/prettier/prettier-eslint/issues/182
     'implicit-arrow-linebreak': 'off',
-    "no-invalid-this": "off",
+    'no-invalid-this': "off",
+    'no-import-assign': 0,
+    'no-redeclare': 0,
+    'global-require': 0,
 
-    "import/no-cycle": "off",
-    "import/prefer-default-export": "off",
-    "import/no-namespace": "off",
-    "import/no-unresolved": 'off',
+    'import/no-cycle': "off",
+    'import/prefer-default-export': "off",
+    'import/no-namespace': "off",
+    'import/no-unresolved': 'off',
   },
 }
