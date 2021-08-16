@@ -1,7 +1,7 @@
 {
   "name": "eslint-config-webstrong",
-  "version": "1.1.8",
-  "description": "WebStrong ESLint config for JS, React (+hooks), React Native, TypeScript and NodeJS",
+  "version": "1.1.9",
+  "description": "WebStrong ESLint config for JS, React (+hooks), React Native, TypeScript, NodeJS and NextJS.",
   "main": "index.js",
   "scripts": {},
   "repository": {
@@ -19,6 +19,8 @@
     "react native",
     "node",
     "nodejs",
+    "next",
+    "nextjs",
     "javascript",
     "es2015",
     "es2016",
@@ -35,10 +37,11 @@
   },
   "homepage": "https://webstrong.pl",
   "devDependencies": {
+    "@babel/eslint-parser": "^7.14.7",
+    "@next/eslint-plugin-next": "^11.1.0",
     "@typescript-eslint/eslint-plugin": "^4.28.2",
     "@typescript-eslint/parser": "^4.28.2",
-    "@babel/eslint-parser": "^7.14.7",
-    "eslint": "^7.30.0",
+    "eslint": "^7.32.0",
     "eslint-config-airbnb-typescript": "^12.3.1",
     "eslint-config-node": "^4.1.0",
     "eslint-config-prettier": "^8.3.0",
@@ -51,10 +54,11 @@
     "react": ">= 0.13.0"
   },
   "peerDependencies": {
+    "@babel/eslint-parser": "^7.14.7",
+    "@next/eslint-plugin-next": "^11.1.0",
     "@typescript-eslint/eslint-plugin": "^4.28.2",
     "@typescript-eslint/parser": "^4.28.2",
-    "@babel/eslint-parser": "^7.14.7",
-    "eslint": "^7.30.0",
+    "eslint": "^7.32.0",
     "eslint-config-airbnb-typescript": "^12.3.1",
     "eslint-config-node": "^4.1.0",
     "eslint-config-prettier": "^8.3.0",

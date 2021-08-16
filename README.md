@@ -2,11 +2,11 @@
 
 [![npm version](https://badge.fury.io/js/eslint-config-webstrong.svg)](https://badge.fury.io/js/eslint-config-webstrong.svg)
 
-React, React Hooks, React Native, TypeScript and NodeJS specific linting rules for ESLint.
+React, React Hooks, React Native, TypeScript, NodeJS and NextJS specific linting rules for ESLint.
 
 ## Configuration
 
-Our default export contains all of our ESLint rules, including ECMAScript 6+ React, React Hooks, React Native, TypeScript and NodeJS support.
+Our default export contains all of our ESLint rules, including ECMAScript 6+ React, React Hooks, React Native, TypeScript, NodeJS and NextJS support.
 
 Install eslint-config-webstrong
 
@@ -53,6 +53,12 @@ Rules for TypeScript
 Rules for NodeJS
 
 `"extends": ["webstrong/node"]`
+
+### eslint-config-webstrong/next
+
+Rules for NextJS
+
+`"extends": ["webstrong/next"]`
 
 ## Connecting rules
 
